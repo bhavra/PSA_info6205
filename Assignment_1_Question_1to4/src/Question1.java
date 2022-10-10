@@ -2,7 +2,7 @@ import java.util.LinkedList;
 
 public class Question1 {
     public static ListNode rotateRight(ListNode head, int k) {
-        if (head.next == null) {
+        if (head == null || head.next == null) {
             return head;
         }
         ListNode prev = null, curr = head;
