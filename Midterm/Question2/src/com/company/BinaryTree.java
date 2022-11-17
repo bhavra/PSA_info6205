@@ -18,6 +18,7 @@ public class BinaryTree<T> {
                         Node<T> node = queue.remove();
                         if(node != null){
                                 System.out.printf(node.data + " , ");
+
                                 if(node.left!= null){
                                         queue.add(node.left);
                                 }
