@@ -19,7 +19,6 @@ public class Question3 {
             sb.deleteCharAt(stack.pop());
         return sb.toString();
     }
-
     public static void main(String[] args){
         String input = "((())()";
         String output = minRemoveValidParanthesis(input);
