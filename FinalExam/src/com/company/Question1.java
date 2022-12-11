@@ -23,4 +23,7 @@ public class Question1 {
         String[] input ={"eat","tea","tan","ate","nat","bat"};
         System.out.println(groupAnagramsTogether(input));
     }
+
+//Time complexity - O(n)
+//space complexity - O(1)
 }
