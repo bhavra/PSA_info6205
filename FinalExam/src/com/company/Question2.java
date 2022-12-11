@@ -20,4 +20,9 @@ public class Question2 {
         checkAdjacent(i,j+1);
         return 1;
     }
+
+/*
+time complexity - O(n^2),where n is the number of rows and columns in the matrix.
+The space complexity is O(n).
+ */
 }

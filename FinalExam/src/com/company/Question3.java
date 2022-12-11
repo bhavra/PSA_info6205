@@ -27,4 +27,6 @@ public class Question3 {
         System.out.println("Output -> " +output);
         System.out.println("Number of deletions -> " +numDel);
     }
+
+//Time complexity and space complexity - Big O(n^2)
 }
